@@ -1,0 +1,168 @@
+body, p {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+}
+
+table, th, tr, td {
+  text-align: left;
+}
+
+img {
+
+    display: inline-block;
+}
+
+.code-img {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.music-img {
+    width: 25%;
+    height: 25%;
+    float: left;
+    padding-right: 30px;
+    margin-left: 30px;
+  }
+  
+
+.biking-img {
+    width: 30%;
+    height: 30%;
+    float: right;
+    padding-left: 30px;
+    margin-left: 30px;
+  }
+
+.top-cloud {
+    position: absolute;
+    margin-top: 20px;
+    right: 200px;
+
+}
+
+.bottom-cloud {
+    position: absolute;
+    margin: 0;
+    left: 200px;
+    top: 300px;
+
+
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+h2 {
+color: #66BFBF;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+font-weight: normal;
+padding-bottom: 10px;
+
+}
+
+h3 {
+color: #11999E;
+font-family: 'Montserrat', sans-serif;
+}
+
+p {
+line-height: 2;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+hr {
+border: dotted #EAF6F6 6px;
+border-bottom: none;
+width: 4%;
+margin: 100px auto 100px auto;
+}
+  
+  
+.top-container {
+    background-color: #06113C;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 60px;
+  }
+  
+  .middle-container {
+    margin: 0px;
+  }
+  
+  .bottom-container {
+      
+    background-color: #DDDDDD;
+    padding: 100px;
+  }
+  
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+  }
+  
+
+.footer {
+    background-color: #FF4C29;
+    font-size: small;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-link {
+  margin: 10px 20px; 
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+
+}
+
+
+.buttonClass {
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:#eeb44f;
+  font-weight:bold;
+  border-top-left-radius:28px;
+  border-top-right-radius:28px;
+  border-bottom-left-radius:28px;
+  border-bottom-right-radius:28px;
+  box-shadow:inset 0px 1px 0px 0px #fce2c1;
+  text-shadow:inset 0px 1px 0px #cc9f52;
+  background:rgba(221, 221, 221, 1);
+  font-size: 20px;
+  position: relative; 
+  top: 20px;
+  margin: 100px auto 100px auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.buttonClass:hover {
+  background: rgba(255, 76, 41, 1)
+}
+              
